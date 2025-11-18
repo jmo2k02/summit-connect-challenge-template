@@ -8,7 +8,7 @@ spec:
   project: default
   destination:
     server: https://kubernetes.default.svc
-    namespace: ${{values.namespace}}
+    namespace: user8
   source:
     repoURL: ${{values.sourceRepository}}
     path: ./helm/summit-connect-challenge

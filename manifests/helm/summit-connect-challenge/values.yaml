@@ -1,4 +1,4 @@
 app:
   name: ${{values.componentId}}
   namespace: ${{values.namespace}}
-  env: ${{values.env}}
+  env: prod
